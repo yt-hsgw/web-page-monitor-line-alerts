@@ -12,5 +12,5 @@ CONFIG = {
     'HASH_FILE': 'page_hash.txt',  # ハッシュ値を保存するファイル
     'LINE_NOTIFY_API': 'https://notify-api.line.me/api/notify',  # LINE NotifyのAPIエンドポイント
     'LINE_TOKEN': os.getenv('LINE_NOTIFY_TOKEN'),  # LINE Notifyのトークン
-    'USER_AGENT' : os.getenv('USER_AGENT', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
+    'USER_AGENT' : os.getenv('USER_AGENT')
 }
